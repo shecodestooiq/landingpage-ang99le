@@ -1,0 +1,251 @@
+#title{
+    text-align: center;
+   }
+   
+   .navigation{
+     display: flex;
+      list-style-type: none;
+      padding-right: 5px;
+   
+   }
+   
+    #burger{
+     display: flex;
+     align-items:center;
+     padding-left:40%;
+   }
+   li a {
+       color: black;
+       padding: 16px 16px;
+      
+   }
+   #img{
+       border-radius:50px;
+   }
+    li a:hover{
+       background-color: #ec43e7;
+    }
+   
+    li>h1{
+           font-family: "Rye", serif;
+           font-weight: 400;
+           font-style: normal;
+           text-shadow:2px 1px #ec43e7;
+           margin-left: 5px;
+         }
+         
+         .checked {
+           color: orange;
+         }
+         .blueEyes{
+           box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+           transition: 0.3s;
+           text-align:center;
+           background-color: beige;
+           border:2px solid bisque;
+           padding:7px;
+         }
+   
+         #dragon{
+           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+           transition: 0.3s;
+           border-radius:5px;
+           height:300px;
+           width:100%;
+           max-width:90%;
+         }
+   
+         .dragon-text{
+           border: 3px solid bisque;
+           margin-top:8px;}
+   
+         .darkKnight{
+           justify-items: center;
+           align-items: center;
+           box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+           transition: 0.3s;
+           text-align:center;
+           background-color: beige;
+           border:2px solid bisque;
+           padding:7px;
+         }
+   
+         #knight1{
+           box-shadow: 0 4px 8px 0px black;
+           transition: 0.3s;
+           border-radius:7px;
+           height:300px;
+           width:auto;
+           max-width:90%;
+         }
+         .darkKnight-text{
+           border: 3px solid bisque;
+           margin-top:8px;}
+   
+         .Exodia{
+           justify-items: center;
+           align-items: center;
+           box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+           transition: 0.3s;
+           text-align:center;
+           background-color: beige;
+           border:2px solid bisque;
+           padding:7px;
+         }
+   
+         #Exodia{
+           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+           transition: 0.3s;
+           border-radius:5px;
+           height:300px;
+           width:auto;
+           max-width:90%;
+         }
+         .Exodia-text{
+           border: 3px solid bisque;
+           margin-top:8px;}
+   
+         .potOfgreed{
+           justify-items: center;
+           align-items: center;
+           box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+           transition: 0.3s;
+           text-align:center;
+           padding:7px;
+           border:2px solid bisque;
+           background-color: beige;
+         }
+   
+         #pot{
+           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+           transition: 0.3s;
+           border-radius:5px;
+           height:300px;
+           width:auto;
+           max-width:90%;
+         }
+         #pot-text{
+           border: 3px solid bisque;
+         }
+         .cont{
+            position: relative;
+           
+          }
+               #poster{
+                background: url("assets/landingimg.jpg") no-repeat top center/cover;
+                filter: blur(6px);
+                height:600px;
+                width: auto;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                background-size: cover;
+                background-position:center;
+                }
+                  
+                #par{
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform:translate(-50%, -50%);
+                  width:90%;
+                  padding:20px;
+                  text-align: center;
+                  color:#fff;
+            
+                }
+                
+         #footer{
+           background-color: #000;
+           color: #fff;
+           padding: 10px;
+         
+         }
+       
+           .cards{
+              display:grid;
+              grid-row-gap:10px;
+              grid-column-gap:10px;
+              margin-bottom: 10px;  
+              justify-content: center;
+              align-items: center;
+              
+             }
+             
+   
+             @media (min-width:0px) and (max-width:499px){
+               
+                 .container{
+                   justify-content:center;
+                   align-items: center;
+                   display:none;
+   
+               }
+               #burger{
+                 display:flex;
+                 align-items:center;
+                 padding-left:40%;
+               }
+             } 
+            @media (min-width:500px) and (max-width:767px){
+                   .cards{
+                     display:grid;
+                      grid-template-columns:200px 200px;
+                      justify-content: center;
+                      grid-row-gap:10px;
+                      grid-column-gap:20px;
+                     }
+   
+                     .container{
+                       justify-content:center;
+                       align-items: center;
+                       display: flex;
+                       
+                   }
+                   #burger{
+                     display: none;
+                     align-items:center;
+                     padding-left:40%;
+                   }
+                 }
+            @media (min-width:768px) and (max-width:1025px){
+             .cards{
+               display:grid;
+                grid-template-columns:200px 200px 200px;
+                justify-content: center;
+                grid-row-gap:10px;
+                grid-column-gap:20px;
+               }
+               .container{
+                 justify-content:center;
+                 align-items: center;
+                 display: flex;
+               }
+               #burger{
+                 display: none;
+                 align-items:center;
+                 padding-left:40%;
+               }
+             }
+             @media (min-width:1026px){
+               .cards{
+                 display:grid;
+                  grid-template-columns:200px 200px 200px 200px;
+                  justify-content: center;
+                  grid-row-gap:10px;
+                  grid-column-gap:30px;
+                 }
+                 
+                 .container{
+                   justify-content:center;
+                   align-items: center;
+                   display: flex;
+                 }
+   
+                 #burger{
+                   display: none;
+                   align-items:center;
+                   padding-left:40%;
+                 }
+               } 
+   
