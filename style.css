@@ -37,7 +37,7 @@
          .checked {
            color: orange;
          }
-         .blueEyes{
+         .card{
            box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
            transition: 0.3s;
            text-align:center;
@@ -59,7 +59,7 @@
            border: 3px solid bisque;
            margin-top:8px;}
    
-         .darkKnight{
+         .card{
            justify-items: center;
            align-items: center;
            box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
@@ -82,10 +82,10 @@
            border: 3px solid bisque;
            margin-top:8px;}
    
-         .Exodia{
+         .card{
            justify-items: center;
            align-items: center;
-           box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+           box-shadow: 0 4px 8px 0 rgba(255, 123, 123, 0.2);
            transition: 0.3s;
            text-align:center;
            background-color: beige;
@@ -105,7 +105,7 @@
            border: 3px solid bisque;
            margin-top:8px;}
    
-         .potOfgreed{
+         .card{
            justify-items: center;
            align-items: center;
            box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
@@ -133,7 +133,7 @@
           }
                #poster{
                 background: url("assets/landingimg.jpg") no-repeat top center/cover;
-                filter: blur(6px);
+                filter: blur(4px);
                 height:600px;
                 width: auto;
                 display: flex;
@@ -151,8 +151,7 @@
                   width:90%;
                   padding:20px;
                   text-align: center;
-                  color:#fff;
-            
+                  color:#fff   
                 }
                 
          #footer{
